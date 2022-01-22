@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Iframes</h2>
+<p>You can use the height and width attributes to specify the size of the iframe:</p>
+
+<iframe id="bing" src="https://www.bing.com/translator"  width="100%" title="Iframe Example" style="position: absolute; height: 100%; border: none"></iframe>
+
+</body>
+
+
+
+<script>
+
+setTimeout(clickey,5000);
+
+bing = document.getElementById('bing').contentWindow
+
+function clickey(){
+bing.document.getElementById('tta_playiconsrc').click()
+}
+</script>
+
+</html>
+
